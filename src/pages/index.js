@@ -55,6 +55,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/muhann"
               className="underline italic text-blue-800"
+              target="_blank"
             >
               https://www.linkedin.com/in/muhann
             </a>
@@ -66,6 +67,7 @@ export default function Home() {
                 <a
                   href="https://absensi-karyawan-ecru.vercel.app/"
                   className="underline italic text-blue-800"
+                  target="_blank"
                 >
                   https://absensi-karyawan-ecru.vercel.app/
                 </a>
@@ -75,6 +77,7 @@ export default function Home() {
                 <a
                   href="https://aplikasi-manajemen-keuangan.vercel.app/"
                   className="underline italic text-blue-800"
+                  target="_blank"
                 >
                   https://aplikasi-manajemen-keuangan.vercel.app/
                 </a>
@@ -84,6 +87,7 @@ export default function Home() {
                 <a
                   href="https://edufordhanan.netlify.app/"
                   className="underline italic text-blue-800"
+                  target="_blank"
                 >
                   https://edufordhanan.netlify.app/
                 </a>
@@ -113,6 +117,7 @@ export default function Home() {
                   <a
                     href={data.website}
                     className="underline italic text-blue-800"
+                    target="_blank"
                   >
                     {data.website}
                   </a>
@@ -144,7 +149,6 @@ export default function Home() {
           <input
             name="website"
             className="border-2 border-gray-300 rounded py-1"
-            required
           ></input>
         </div>
         <div className="flex flex-col my-3">
